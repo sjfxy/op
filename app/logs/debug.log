@@ -1,0 +1,144 @@
+[Thu, 10 Aug 17 08:21:23 +0000][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 08:21:23 +0000][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 08:21:23 +0000][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` WHERE `robots`.`name` = :name ORDER BY `robots`.`type` DESC
+[Thu, 10 Aug 17 08:21:23 +0000][INFO] INSERT INTO `robots` (`name`, `type`, `year`) VALUES (?, ?, ?)
+[Thu, 10 Aug 17 16:22:36 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:22:36 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:22:36 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` WHERE `robots`.`name` = :name ORDER BY `robots`.`type` DESC
+[Thu, 10 Aug 17 16:22:36 +0800][INFO] INSERT INTO `robots` (`name`, `type`, `year`) VALUES (?, ?, ?)
+[Thu, 10 Aug 17 16:31:44 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:31:44 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:31:44 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:32:05 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:32:05 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:32:05 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:32:05 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` ORDER BY `robots`.`name`
+[Thu, 10 Aug 17 16:32:05 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` LIMIT :APL0
+[Thu, 10 Aug 17 16:32:19 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:32:19 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:32:19 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:32:19 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` ORDER BY `robots`.`name`
+[Thu, 10 Aug 17 16:32:19 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` LIMIT :APL0
+[Thu, 10 Aug 17 16:32:37 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:32:37 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:32:37 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:32:37 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` ORDER BY `robots`.`name`
+[Thu, 10 Aug 17 16:32:37 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` LIMIT :APL0
+[Thu, 10 Aug 17 16:32:54 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:32:54 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:32:54 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:32:54 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` ORDER BY `robots`.`name`
+[Thu, 10 Aug 17 16:32:54 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` LIMIT :APL0
+[Thu, 10 Aug 17 16:33:16 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:33:16 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:33:16 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:33:16 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` ORDER BY `robots`.`name`
+[Thu, 10 Aug 17 16:33:16 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` LIMIT :APL0
+[Thu, 10 Aug 17 16:34:22 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:34:22 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:34:22 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:34:22 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` ORDER BY `robots`.`name`
+[Thu, 10 Aug 17 16:34:22 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` LIMIT :APL0
+[Thu, 10 Aug 17 16:34:22 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:34:22 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:34:22 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:34:22 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` ORDER BY `robots`.`name`
+[Thu, 10 Aug 17 16:34:22 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` LIMIT :APL0
+[Thu, 10 Aug 17 16:34:23 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:34:23 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:34:23 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:34:23 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` ORDER BY `robots`.`name`
+[Thu, 10 Aug 17 16:34:23 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` LIMIT :APL0
+[Thu, 10 Aug 17 16:34:39 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:34:39 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:34:39 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:34:39 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` ORDER BY `robots`.`name`
+[Thu, 10 Aug 17 16:34:39 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` LIMIT :APL0
+[Thu, 10 Aug 17 16:34:56 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:34:56 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:34:56 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:34:56 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` ORDER BY `robots`.`name`
+[Thu, 10 Aug 17 16:34:56 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` LIMIT :APL0
+[Thu, 10 Aug 17 16:34:57 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:34:57 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:34:57 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:34:57 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` ORDER BY `robots`.`name`
+[Thu, 10 Aug 17 16:34:57 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots` LIMIT :APL0
+[Thu, 10 Aug 17 16:38:24 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:38:24 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:38:24 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:38:34 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:38:34 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:38:34 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:38:48 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:38:48 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:38:48 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:42:46 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:42:46 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:42:46 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:43:04 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:43:04 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:43:04 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:44:23 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'robots' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 16:44:23 +0800][INFO] DESCRIBE `robots`
+[Thu, 10 Aug 17 16:44:23 +0800][INFO] SELECT `robots`.`id`, `robots`.`name`, `robots`.`type`, `robots`.`year` FROM `robots`
+[Thu, 10 Aug 17 16:59:55 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'sample_cars' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:02:01 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'sample_cars' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:02:01 +0800][INFO] DESCRIBE `sample_cars`
+[Thu, 10 Aug 17 17:02:01 +0800][INFO] SELECT `sample_cars`.`id`, `sample_cars`.`name`, `sample_cars`.`brand_id`, `sample_cars`.`price`, `sample_cars`.`year`, `sample_cars`.`style` FROM `sample_cars`
+[Thu, 10 Aug 17 17:02:18 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'sample_cars' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:02:18 +0800][INFO] DESCRIBE `sample_cars`
+[Thu, 10 Aug 17 17:02:18 +0800][INFO] SELECT `sample_cars`.`id`, `sample_cars`.`name`, `sample_cars`.`brand_id`, `sample_cars`.`price`, `sample_cars`.`year`, `sample_cars`.`style` FROM `sample_cars`
+[Thu, 10 Aug 17 17:02:31 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'sample_cars' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:02:31 +0800][INFO] DESCRIBE `sample_cars`
+[Thu, 10 Aug 17 17:02:31 +0800][INFO] SELECT `sample_cars`.`id`, `sample_cars`.`name`, `sample_cars`.`brand_id`, `sample_cars`.`price`, `sample_cars`.`year`, `sample_cars`.`style` FROM `sample_cars`
+[Thu, 10 Aug 17 17:02:42 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'sample_cars' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:02:42 +0800][INFO] DESCRIBE `sample_cars`
+[Thu, 10 Aug 17 17:02:43 +0800][INFO] SELECT `sample_cars`.`id`, `sample_cars`.`name`, `sample_cars`.`brand_id`, `sample_cars`.`price`, `sample_cars`.`year`, `sample_cars`.`style` FROM `sample_cars`
+[Thu, 10 Aug 17 17:06:19 +0800][INFO] SELECT `sample_cars`.`name` AS `name` FROM `sample_cars` ORDER BY `sample_cars`.`name`
+[Thu, 10 Aug 17 17:12:21 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'sample_cars' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:12:21 +0800][INFO] DESCRIBE `sample_cars`
+[Thu, 10 Aug 17 17:12:42 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'sample_cars' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:12:42 +0800][INFO] DESCRIBE `sample_cars`
+[Thu, 10 Aug 17 17:13:30 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'sample_cars' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:13:30 +0800][INFO] DESCRIBE `sample_cars`
+[Thu, 10 Aug 17 17:14:12 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'sample_cars' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:14:12 +0800][INFO] DESCRIBE `sample_cars`
+[Thu, 10 Aug 17 17:14:12 +0800][INFO] INSERT INTO `sample_cars` (`name`, `brand_id`, `price`, `year`, `style`) VALUES (?, ?, ?, ?, ?)
+[Thu, 10 Aug 17 17:14:44 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'sample_cars' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:14:44 +0800][INFO] DESCRIBE `sample_cars`
+[Thu, 10 Aug 17 17:35:03 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:35:03 +0800][INFO] DESCRIBE `users`
+[Thu, 10 Aug 17 17:35:03 +0800][INFO] SELECT `users`.`id`, `users`.`username`, `users`.`password`, `users`.`name`, `users`.`email`, `users`.`created_at`, `users`.`active` FROM `users`
+[Thu, 10 Aug 17 17:40:52 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:40:52 +0800][INFO] DESCRIBE `users`
+[Thu, 10 Aug 17 17:40:52 +0800][INFO] SELECT `users`.`id`, `users`.`username`, `users`.`password`, `users`.`name`, `users`.`email`, `users`.`created_at`, `users`.`active` FROM `users` ORDER BY `users`.`created_at` DESC
+[Thu, 10 Aug 17 17:40:52 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:40:52 +0800][INFO] DESCRIBE `users`
+[Thu, 10 Aug 17 17:40:52 +0800][INFO] SELECT `users`.`id`, `users`.`username`, `users`.`password`, `users`.`name`, `users`.`email`, `users`.`created_at`, `users`.`active` FROM `users` ORDER BY `users`.`created_at` DESC
+[Thu, 10 Aug 17 17:40:53 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:40:53 +0800][INFO] DESCRIBE `users`
+[Thu, 10 Aug 17 17:40:53 +0800][INFO] SELECT `users`.`id`, `users`.`username`, `users`.`password`, `users`.`name`, `users`.`email`, `users`.`created_at`, `users`.`active` FROM `users` ORDER BY `users`.`created_at` DESC
+[Thu, 10 Aug 17 17:42:06 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:42:06 +0800][INFO] DESCRIBE `users`
+[Thu, 10 Aug 17 17:42:06 +0800][INFO] SELECT `users`.`id`, `users`.`username`, `users`.`password`, `users`.`name`, `users`.`email`, `users`.`created_at`, `users`.`active` FROM `users` ORDER BY `users`.`created_at` DESC
+[Thu, 10 Aug 17 17:42:07 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:42:07 +0800][INFO] DESCRIBE `users`
+[Thu, 10 Aug 17 17:42:07 +0800][INFO] SELECT `users`.`id`, `users`.`username`, `users`.`password`, `users`.`name`, `users`.`email`, `users`.`created_at`, `users`.`active` FROM `users` ORDER BY `users`.`created_at` DESC
+[Thu, 10 Aug 17 17:42:07 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:42:07 +0800][INFO] DESCRIBE `users`
+[Thu, 10 Aug 17 17:42:07 +0800][INFO] SELECT `users`.`id`, `users`.`username`, `users`.`password`, `users`.`name`, `users`.`email`, `users`.`created_at`, `users`.`active` FROM `users` ORDER BY `users`.`created_at` DESC
+[Thu, 10 Aug 17 17:42:11 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:42:11 +0800][INFO] DESCRIBE `users`
+[Thu, 10 Aug 17 17:42:11 +0800][INFO] SELECT `users`.`id`, `users`.`username`, `users`.`password`, `users`.`name`, `users`.`email`, `users`.`created_at`, `users`.`active` FROM `users` ORDER BY `users`.`created_at` DESC
+[Thu, 10 Aug 17 17:42:15 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:42:15 +0800][INFO] DESCRIBE `users`
+[Thu, 10 Aug 17 17:42:15 +0800][INFO] SELECT `users`.`id`, `users`.`username`, `users`.`password`, `users`.`name`, `users`.`email`, `users`.`created_at`, `users`.`active` FROM `users` ORDER BY `users`.`created_at` DESC
+[Thu, 10 Aug 17 17:51:23 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:51:23 +0800][INFO] DESCRIBE `users`
+[Thu, 10 Aug 17 17:51:23 +0800][INFO] SELECT `users`.`id`, `users`.`username`, `users`.`password`, `users`.`name`, `users`.`email`, `users`.`created_at`, `users`.`active` FROM `users` ORDER BY `users`.`created_at` DESC
+[Thu, 10 Aug 17 17:54:08 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Thu, 10 Aug 17 17:54:08 +0800][INFO] DESCRIBE `users`
+[Thu, 10 Aug 17 17:54:08 +0800][INFO] SELECT `users`.`id`, `users`.`username`, `users`.`password`, `users`.`name`, `users`.`email`, `users`.`created_at`, `users`.`active` FROM `users` ORDER BY `users`.`created_at` DESC
+[Fri, 11 Aug 17 16:27:13 +0800][INFO] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[Fri, 11 Aug 17 16:27:14 +0800][INFO] DESCRIBE `users`
